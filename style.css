@@ -1,8 +1,3 @@
-/* ============================================
-   PORTFOLIO — DATA SCIENCE MS STUDENT
-   Theme: Editorial / Refined Dark
-   Fonts: DM Serif Display + Outfit + DM Mono
-============================================ */
 
 :root {
   --bg: #0e0e0f;
@@ -13,8 +8,8 @@
   --text: #e8e6e1;
   --text-muted: #888884;
   --text-dim: #555552;
-  --accent: #c8f060;        /* electric lime */
-  --accent-warm: #f5c842;   /* warm gold */
+  --accent: #b19cd7;     
+  --accent-warm: #f5c842;  
   --accent-muted: #8aab3c;
   --serif: 'DM Serif Display', Georgia, serif;
   --sans: 'Outfit', sans-serif;
