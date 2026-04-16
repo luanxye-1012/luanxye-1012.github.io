@@ -1011,14 +1011,14 @@ ul { list-style: none; }
 
 .scroll-down {
   font-family: var(--mono);
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
+  font-size: 3.5rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  opacity: 0.9;
+  opacity: 0.95;
   transition: opacity 0.2s, transform 0.2s;
 }
 
@@ -1029,7 +1029,7 @@ ul { list-style: none; }
 
 .scroll-down .arrow {
   color: var(--accent);
-  font-size: 0.9rem;
+  font-size: 3.5rem;
   animation: bounce 1.6s infinite;
 }
 
