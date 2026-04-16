@@ -794,9 +794,8 @@ ul { list-style: none; }
 
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
-  align-items: start;
+  grid-template-columns: 1fr;
+  gap: 0;
 }
 
 .contact-intro {
@@ -869,92 +868,6 @@ ul { list-style: none; }
 }
 
 .contact-channel:hover .channel-arrow { color: var(--accent); }
-
-.availability-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  letter-spacing: 0.02em;
-  padding: 0.6rem 1.1rem;
-  background: var(--bg-2);
-  border: 1px solid var(--border);
-  border-radius: 100px;
-}
-
-.avail-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--accent);
-  animation: pulse 2s ease infinite;
-}
-
-.contact-form-wrapper {
-  background: var(--bg-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 2.5rem;
-}
-
-.contact-form-wrapper h3 {
-  font-family: var(--serif);
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.form-note {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  color: var(--text-dim);
-  margin-bottom: 2rem;
-  line-height: 1.5;
-}
-
-.form-note a { color: var(--accent); text-decoration: underline; }
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.form-group label {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--text-dim);
-}
-
-.form-group input,
-.form-group textarea {
-  background: var(--bg-3);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 0.75rem 1rem;
-  color: var(--text);
-  font-family: var(--sans);
-  font-size: 0.9rem;
-  outline: none;
-  transition: border-color 0.2s;
-  resize: vertical;
-}
-
-.form-group input:focus,
-.form-group textarea:focus {
-  border-color: var(--accent);
-}
-
-.form-submit { width: 100%; justify-content: center; margin-top: 0.5rem; }
 
 /* ============================================
    FOOTER
