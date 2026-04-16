@@ -725,119 +725,15 @@ ul { list-style: none; }
 /* ============================================
    RESUME PAGE
 ============================================ */
-.resume-section {
-  max-width: 860px;
+.resume-viewer {
+  padding: 4rem 2rem;
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 4rem 3rem 6rem;
 }
 
-.resume-block {
-  margin-bottom: 4rem;
-}
-
-.resume-block-header {
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--accent);
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 0.75rem;
-  margin-bottom: 2rem;
-}
-
-.resume-entry {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 2rem;
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid var(--bg-3);
-}
-
-.resume-entry:last-child { border-bottom: none; }
-
-.resume-entry-meta {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.entry-date, .entry-location {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.04em;
-  color: var(--text-dim);
-}
-
-.resume-entry-body h3 {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 0.2rem;
-}
-
-.resume-entry-body h4 {
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: var(--accent-muted);
-  margin-bottom: 0.75rem;
-}
-
-.resume-entry-body p {
-  font-size: 0.88rem;
-  color: var(--text-muted);
-  line-height: 1.7;
-}
-
-.resume-bullets {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.resume-bullets li {
-  font-size: 0.88rem;
-  color: var(--text-muted);
-  padding-left: 1.25rem;
-  position: relative;
-  line-height: 1.6;
-}
-
-.resume-bullets li::before {
-  content: '→';
-  position: absolute;
-  left: 0;
-  color: var(--accent);
-  font-size: 0.75rem;
-}
-
-.skills-table {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-.skills-row {
-  display: grid;
-  grid-template-columns: 110px 1fr;
-  gap: 1.5rem;
-  align-items: center;
-}
-
-.skills-category {
-  font-family: var(--mono);
-  font-size: 0.7rem;
-  letter-spacing: 0.06em;
-  color: var(--text-dim);
-  text-transform: uppercase;
-}
-
-.skill-pills-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+.resume-viewer iframe {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  background: white;
 }
 
 /* ============================================
