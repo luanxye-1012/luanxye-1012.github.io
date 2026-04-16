@@ -612,7 +612,7 @@ ul { list-style: none; }
    PAGE HERO (inner pages)
 ============================================ */
 .page-hero {
-  padding: calc(var(--nav-h) + 5rem) 3rem 4rem;
+  padding: calc(var(--nav-h) + 5rem) 3rem 2rem;
   max-width: var(--max-w);
   margin: 0 auto;
   border-bottom: 1px solid var(--border);
