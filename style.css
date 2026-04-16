@@ -467,14 +467,23 @@ ul { list-style: none; }
 }
 
 .project-img-wrap {
-  aspect-ratio: 16/9;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
   overflow: hidden;
   background: var(--bg-3);
+  position: relative;
+}
+
+.project-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .project-card.large .project-img-wrap {
-  aspect-ratio: auto;
-  min-height: 300px;
+  min-height: 320px;
 }
 
 .project-img-placeholder {
