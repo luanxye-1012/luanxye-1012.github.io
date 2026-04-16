@@ -1005,13 +1005,13 @@ ul { list-style: none; }
 .hero-scroll-indicator {
   margin-top: 3rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   animation: fadeUp 0.8s 0.4s var(--ease) both;
 }
 
 .scroll-down {
   font-family: var(--mono);
-  font-size: 3.5rem;
+  font-size: 10rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent);
@@ -1029,7 +1029,7 @@ ul { list-style: none; }
 
 .scroll-down .arrow {
   color: var(--accent);
-  font-size: 3.5rem;
+  font-size: 10rem;
   animation: bounce 1.6s infinite;
 }
 
