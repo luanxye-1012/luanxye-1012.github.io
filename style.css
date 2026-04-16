@@ -461,6 +461,7 @@ ul { list-style: none; }
 }
 
 .project-card.large {
+  grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: stretch;
