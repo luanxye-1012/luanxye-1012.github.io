@@ -792,12 +792,6 @@ ul { list-style: none; }
   margin: 0 auto;
 }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0;
-}
-
 .contact-intro {
   font-size: 1.05rem;
   color: var(--text-muted);
