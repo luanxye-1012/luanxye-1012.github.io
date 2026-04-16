@@ -427,6 +427,7 @@ ul { list-style: none; }
   padding-left: 3rem;
   max-width: var(--max-w);
   margin: 0 auto;
+  animation: fadeUp 1s 0.1s var(--ease) both;
 }
 
 .section-header {
