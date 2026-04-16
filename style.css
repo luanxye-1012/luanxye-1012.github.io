@@ -517,7 +517,7 @@ ul { list-style: none; }
   font-size: 0.67rem;
   letter-spacing: 0.06em;
   padding: 0.2rem 0.6rem;
-  background: rgba(200, 240, 96, 0.08);
+  background: rgba(240, 198, 116, 0.10);
   color: var(--accent-muted);
   border: 1px solid rgba(200, 240, 96, 0.15);
   border-radius: 3px;
