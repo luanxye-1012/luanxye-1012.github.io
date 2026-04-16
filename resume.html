@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume — Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">YN<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html" class="active">Resume</a></li>
+      <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <section class="page-hero">
+    <div class="section-label">// Resume</div>
+    <h1>Experience &<br><em>Credentials</em></h1>
+    <a href="assets/resume.pdf" download class="btn btn-primary" style="margin-top: 2rem; display: inline-block;">
+      ↓ Download PDF
+    </a>
+  </section>
+
+  <section class="resume-section">
+
+    <div class="resume-block">
+      <div class="resume-block-header">Education</div>
+      <div class="resume-entry">
+        <div class="resume-entry-meta">
+          <span class="entry-date">2024 — 2026</span>
+          <span class="entry-location">City, State</span>
+        </div>
+        <div class="resume-entry-body">
+          <h3>M.S. Data Science</h3>
+          <h4>[Your University]</h4>
+          <p>GPA: 3.9/4.0 · Relevant Coursework: Machine Learning, Deep Learning, Statistical Inference, Big Data Systems, NLP, Data Visualization</p>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-meta">
+          <span class="entry-date">2020 — 2024</span>
+          <span class="entry-location">City, State</span>
+        </div>
+        <div class="resume-entry-body">
+          <h3>B.S. [Your Major]</h3>
+          <h4>[Undergraduate University]</h4>
+          <p>Graduated with Honors · Dean's List · Senior Thesis: [Brief Title]</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-block">
+      <div class="resume-block-header">Experience</div>
+      <div class="resume-entry">
+        <div class="resume-entry-meta">
+          <span class="entry-date">Summer 2024</span>
+          <span class="entry-location">Remote / City</span>
+        </div>
+        <div class="resume-entry-body">
+          <h3>Data Science Intern</h3>
+          <h4>[Company Name]</h4>
+          <ul class="resume-bullets">
+            <li>Built an end-to-end ML pipeline to predict customer churn with 89% accuracy, reducing churn by 12% QoQ.</li>
+            <li>Designed and ran A/B tests that increased click-through rate by 8% across 2M+ users.</li>
+            <li>Collaborated with engineering to deploy models via REST API using FastAPI and Docker.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-meta">
+          <span class="entry-date">2022 — 2023</span>
+          <span class="entry-location">City, State</span>
+        </div>
+        <div class="resume-entry-body">
+          <h3>Research Assistant</h3>
+          <h4>[Lab / University Department]</h4>
+          <ul class="resume-bullets">
+            <li>Assisted Prof. [Name] on [research topic], processing and cleaning datasets of 1M+ records.</li>
+            <li>Co-authored a paper submitted to [Conference/Journal] on [brief topic].</li>
+            <li>Developed data visualization scripts in Python (Matplotlib, Seaborn) for grant reports.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-block">
+      <div class="resume-block-header">Skills</div>
+      <div class="skills-table">
+        <div class="skills-row">
+          <span class="skills-category">Languages</span>
+          <div class="skill-pills-row">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">R</span>
+            <span class="skill-pill">SQL</span>
+            <span class="skill-pill">Bash</span>
+            <span class="skill-pill">JavaScript</span>
+          </div>
+        </div>
+        <div class="skills-row">
+          <span class="skills-category">ML / AI</span>
+          <div class="skill-pills-row">
+            <span class="skill-pill">PyTorch</span>
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">scikit-learn</span>
+            <span class="skill-pill">HuggingFace</span>
+            <span class="skill-pill">XGBoost</span>
+          </div>
+        </div>
+        <div class="skills-row">
+          <span class="skills-category">Data Eng.</span>
+          <div class="skill-pills-row">
+            <span class="skill-pill">Spark</span>
+            <span class="skill-pill">dbt</span>
+            <span class="skill-pill">Airflow</span>
+            <span class="skill-pill">Kafka</span>
+            <span class="skill-pill">Snowflake</span>
+          </div>
+        </div>
+        <div class="skills-row">
+          <span class="skills-category">Tools</span>
+          <div class="skill-pills-row">
+            <span class="skill-pill">Docker</span>
+            <span class="skill-pill">AWS</span>
+            <span class="skill-pill">Git</span>
+            <span class="skill-pill">Tableau</span>
+            <span class="skill-pill">Jupyter</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-block">
+      <div class="resume-block-header">Publications & Awards</div>
+      <div class="resume-entry">
+        <div class="resume-entry-meta">
+          <span class="entry-date">2024</span>
+        </div>
+        <div class="resume-entry-body">
+          <h3>[Paper Title]</h3>
+          <h4>[Conference / Journal] · [Authors]</h4>
+        </div>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-meta">
+          <span class="entry-date">2023</span>
+        </div>
+        <div class="resume-entry-body">
+          <h3>[Award Name]</h3>
+          <h4>[Awarding Organization]</h4>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <span class="nav-logo">YN<span class="dot">.</span></span>
+      <p>Data Science M.S. Student</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:you@email.com">Email</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+    <p class="footer-copy">© 2025 Your Name. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

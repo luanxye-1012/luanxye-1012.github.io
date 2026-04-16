@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Data Science</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="nav-logo">YN<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <span class="hero-tag">M.S. Data Science</span>
+      <h1 class="hero-title">Your<br><em>Name</em></h1>
+      <p class="hero-sub">
+        I turn messy data into clear decisions — specializing in machine learning, statistical modeling, and data storytelling.
+      </p>
+      <div class="hero-cta">
+        <a href="about.html" class="btn btn-primary">Learn More</a>
+        <a href="resume.html" class="btn btn-ghost">View Resume</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">12+</span><span class="stat-label">Projects</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">Internships</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Publications</span></div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="photo-frame">
+        <div class="photo-placeholder">
+          <div class="photo-inner">
+            <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="24" r="12" stroke="currentColor" stroke-width="2" fill="none" opacity="0.4"/>
+              <path d="M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24" stroke="currentColor" stroke-width="2" fill="none" opacity="0.4"/>
+            </svg>
+            <p>Upload your photo here</p>
+            <span>Replace src in &lt;img&gt; tag</span>
+          </div>
+        </div>
+        <!-- Uncomment and replace with your photo:
+        <img src="assets/photo.jpg" alt="Your Name" class="hero-photo" />
+        -->
+        <div class="frame-accent top-left"></div>
+        <div class="frame-accent bottom-right"></div>
+      </div>
+      <div class="floating-badge">
+        <span class="badge-icon">✦</span>
+        <span>Open to Opportunities</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="summary-section">
+    <div class="section-label">// Brief Overview</div>
+    <div class="summary-grid">
+      <div class="summary-text">
+        <h2>Curious about <em>patterns</em> in everything.</h2>
+        <p>
+          Currently pursuing my Master's in Data Science at [Your University]. My work sits at the intersection of machine learning, data engineering, and applied statistics — with a focus on real-world impact. I enjoy collaborating with teams, communicating complex findings clearly, and building pipelines that actually scale.
+        </p>
+        <p>
+          When I'm not training models, I'm probably exploring a new dataset, reading research papers, or finding patterns in coffee consumption.
+        </p>
+      </div>
+      <div class="summary-skills">
+        <div class="skill-pill">Python</div>
+        <div class="skill-pill">R</div>
+        <div class="skill-pill">SQL</div>
+        <div class="skill-pill">TensorFlow</div>
+        <div class="skill-pill">PyTorch</div>
+        <div class="skill-pill">scikit-learn</div>
+        <div class="skill-pill">Spark</div>
+        <div class="skill-pill">dbt</div>
+        <div class="skill-pill">Tableau</div>
+        <div class="skill-pill">AWS</div>
+        <div class="skill-pill">Git</div>
+        <div class="skill-pill">Docker</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section">
+    <div class="section-header">
+      <div class="section-label">// Featured Projects</div>
+      <h2>Selected <em>Work</em></h2>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card large">
+        <div class="project-img-wrap">
+          <div class="project-img-placeholder">
+            <span>Project Image</span>
+          </div>
+          <!-- <img src="assets/proj1.png" alt="Project 1"> -->
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>NLP</span><span>Transformer</span><span>Python</span>
+          </div>
+          <h3>Sentiment Analysis at Scale</h3>
+          <p>Fine-tuned a BERT model on 500K customer reviews to classify sentiment with 94% accuracy, deployed via FastAPI.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project1" target="_blank" class="proj-link">GitHub →</a>
+            <a href="#" class="proj-link secondary">Live Demo →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <div class="project-img-placeholder">
+            <span>Project Image</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Time Series</span><span>Prophet</span>
+          </div>
+          <h3>Sales Forecasting Pipeline</h3>
+          <p>Built an end-to-end forecasting system using Facebook Prophet and dbt that reduced forecasting error by 18%.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project2" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <div class="project-img-placeholder">
+            <span>Project Image</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>Computer Vision</span><span>PyTorch</span>
+          </div>
+          <h3>Medical Image Classifier</h3>
+          <p>CNN-based classifier for chest X-ray anomaly detection, achieving 91% sensitivity on held-out test set.</p>
+          <div class="project-links">
+            <a href="https://github.com/yourusername/project3" target="_blank" class="proj-link">GitHub →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img-wrap">
+          <div class="project-img-placeholder">
+            <span>Project Image</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <div class="project-tags">
+            <span>EDA</span><span>Tableau</span>
+          </div>
+          <h3>Urban Mobility Dashboard</h3>
+          <p>Interactive Tableau dashboard analyzing bike-share patterns across 40+ stations using geospatial clustering.</p>
+          <div class="project-links">
+            <a href="#" class="proj-link">Dashboard →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="projects-more">
+      <a href="https://github.com/yourusername" target="_blank" class="btn btn-ghost">See all projects on GitHub →</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-left">
+      <span class="nav-logo">YN<span class="dot">.</span></span>
+      <p>Data Science M.S. Student</p>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:you@email.com">Email</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+    <p class="footer-copy">© 2025 Your Name. Built with GitHub Pages.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
