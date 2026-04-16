@@ -706,6 +706,7 @@ ul { list-style: none; }
   gap: 1.25rem;
   margin-bottom: 2rem;
   position: relative;
+  overflow:hidden;
 }
 
 .timeline-item:not(:last-child) .timeline-dot::after {
@@ -751,21 +752,8 @@ ul { list-style: none; }
   margin: 0;
 }
 
-.interest-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.interest-pills span {
-  font-family: var(--mono);
-  font-size: 0.75rem;
-  letter-spacing: 0.04em;
-  padding: 0.4rem 0.9rem;
-  background: var(--bg-3);
-  border: 1px solid var(--border);
-  border-radius: 100px;
-  color: var(--text-muted);
+.timeline-content {
+  mind-width: 0;
 }
 
 /* ============================================
