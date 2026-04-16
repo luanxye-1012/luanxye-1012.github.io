@@ -35,3 +35,20 @@ document.querySelectorAll('.project-card, .timeline-item, .contact-channel').for
   el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
   observer.observe(el);
 });
+
+// Load footer (common across all .html pages)
+const footerPlaceholder = document.getElementById('footer-placeholder');
+
+if (footerPlaceholder) {
+  fetch('components/footer.html')
+    .then(res => res.text())
+    .then(data => {
+      footerPlaceholder.innerHTML = data;
+      
+      const yearEl = document.getElementById('year');
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+    })
+    .catch(err => console.error('Footer failed to load:', err));
+}
